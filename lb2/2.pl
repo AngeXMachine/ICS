@@ -12,3 +12,5 @@ sublist(SubList, List) :-
 is_sublist(SubList, List) :-
     sublist(SubList, List),
     SubList \= []. % Проверка, что SubList не пустой список, иначе это был бы любой подсписок.
+
+% ?-is_sublist([1, 3], [1, 2, 3, 4, 5]).
